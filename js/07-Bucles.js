@@ -7,3 +7,13 @@
 // 333
 // 22
 // 1
+
+
+let piramide = 1 ;
+
+
+for(let i = 30 ; i >= piramide ; i--  ){
+  
+    document.write(`${ String(i).repeat(i)} <br>`)
+
+}
