@@ -11,7 +11,7 @@
 
 const ingreseNota = prompt("ingrese su nota , recuerde que debe ser entre 0 y 10").trim();
 
-if( isNaN(ingreseNota) || ingreseNota === "" ){
+if(  isNaN(ingreseNota)|| ingreseNota === "" ){
    alert("por favor ingrese un numero valido");
 }
 else{
