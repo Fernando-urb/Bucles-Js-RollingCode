@@ -9,11 +9,18 @@
 // 1
 
 
-let piramide = 1 ;
+let piramide = +prompt("ingrese un numero no superior a 50") ;
 
+if(isNaN(piramide) || piramide > 50 || piramide < 1){
+    alert("ingre un caracter valido")
 
-for(let i = 30 ; i >= piramide ; i--  ){
+}
+else{
+    for(let i = piramide ; i >= 1 ; i-- ){
   
     document.write(`${ String(i).repeat(i)} <br>`)
 
 }
+
+}
+
