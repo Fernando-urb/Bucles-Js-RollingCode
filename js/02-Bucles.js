@@ -8,3 +8,48 @@
 // 10: Sobresaliente
 
 // Si ingreso un número que no esté dentro del rango de 0 a 10 mostrar un mensaje de “número erróneo”. Si el número ingresado no es válido mostrar el mensaje “Introduce un número válido”.
+
+const ingreseNota = prompt("ingrese su nota , recuerde que debe ser entre 0 y 10").trim();
+
+if( isNaN(ingreseNota) || ingreseNota === "" ){
+   alert("por favor ingrese un numero valido");
+}
+else{
+    const nota = Number(ingreseNota)
+
+    if(nota < 0 || nota  > 10 ){
+        alert("número erróneo");
+    }
+    else if( nota >= 0 &&  nota <= 2  ){
+          alert("Muy deficiente");
+
+    }
+      
+     else if( nota >= 3 &&  nota <= 4  ){
+          alert("Insuficiente");
+
+     }
+      
+     else if( nota >= 5 &&  nota <= 6  ){
+          alert("Suficiente");
+
+     }
+      
+     else if( nota === 7  ){
+          alert("Bien");
+
+     }
+      
+     else if( nota >= 8 &&  nota <= 9  ){
+         alert("Notable");
+
+     }
+       
+    else{
+        alert("Sobresaliente")
+    }
+
+ 
+
+    }
+    
