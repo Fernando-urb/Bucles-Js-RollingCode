@@ -12,3 +12,21 @@
 // 8 (Múltiplo de 4)
 // 9 (Múltiplo de 9)
 // 10
+
+for (let i = 1; i <= 500; i++) {
+  let numeros = `${i}`;
+
+  if (i % 4 === 0) {
+    numeros += " Múltiplo de 4";
+  }
+  if (i % 9 === 0) {
+    numeros += " Múltiplo de 9";
+  }
+  console.log(numeros);
+
+  if (i % 5 === 0) {
+      console.log(` -------------`);
+  }
+  
+
+}
