@@ -8,3 +8,22 @@
 // Si lo introducido no es un número deberá indicarse con un alert y volver a preguntar.
 // Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».
 
+let input = prompt(
+  "Ingrese un número entre 0 a 99999999 (Apretar Cancelar para salir)"
+);
+
+while (input !== null) {
+  const dni = +input;
+  if (!isNaN(dni) && dni >= 0 && dni <= 99999999) {
+    const letras = "TRWAGMYFPDXBNJZSQVHLCKE";
+    const letra = letras.charAt(dni % 23);
+    alert(`La letra según el dni ingresado es: ${letra}`);
+  } else {
+    alert(
+      "Número Inválido. Debe ingresar un valor válido y que este entre los rangos mencionados"
+    );
+  }
+  input = prompt("Ingrese un nuevo DNI (Apretar Cancelar para salir)");
+}
+
+document.write("Fin del programa");
