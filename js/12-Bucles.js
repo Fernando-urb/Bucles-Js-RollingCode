@@ -4,7 +4,7 @@ let numeroRandom  ;
 
 do {
   numeroRandom = Math.floor(Math.random() * 99) + 1; 
-  console.log(`El número es: ${numeroRandom}`);
+ document.write(`El número es: ${numeroRandom}`);
 
 
 } while (numeroRandom <= 1);
