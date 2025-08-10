@@ -22,10 +22,10 @@ for (let i = 1; i <= 500; i++) {
   if (i % 9 === 0) {
     numeros += " Múltiplo de 9";
   }
-  console.log(numeros);
+  document.write(`${numeros}  <br>`);
 
   if (i % 5 === 0) {
-      console.log(` -------------`);
+     document.write(` -------------`);
   }
   
 
