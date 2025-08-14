@@ -1,7 +1,7 @@
 // Realiza un script que pida número de filas y columnas y escriba una tabla. Dentro de cada una de las celdas deberá escribirse un número consecutivo en orden descendente. Si, por ejemplo, la tabla es de 7×5 los números irán del 35 al 1.
 
-let IngreseFila = 3// prompt("ingrese un numero para la fila");
-let ingreseColumna = 3 //prompt ("ingrese un numero para la columna");
+let IngreseFila = 4 // parseInt(prompt("ingrese un numero para la fila"));
+let ingreseColumna = 3 // parseInt(prompt ("ingrese un numero para la columna"));
 
 
 IngreseFila = Number(IngreseFila) ;
