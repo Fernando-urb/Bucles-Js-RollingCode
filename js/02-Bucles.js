@@ -21,7 +21,8 @@ else{
         alert("número erróneo");
     }
     else if( nota >= 0 &&  nota <= 2  ){
-          alert("Muy deficiente");
+          alert("Muy deficiente")
+          ;
 
     }
       
